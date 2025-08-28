@@ -1,0 +1,47 @@
+/* Main container for task entry form */
+.task-entry-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Heading styles */
+.task-entry-container h2,
+.task-entry-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+.task-entry-container label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Form inputs, textarea, select, and button styling */
+.task-entry-container input,
+.task-entry-container textarea,
+.task-entry-container select,
+.task-entry-container button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Submit button styling */
+.task-entry-container button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover effect for submit button */
+.task-entry-container button:hover {
+  background-color: #45a049;
+}
